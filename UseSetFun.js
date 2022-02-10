@@ -1,11 +1,8 @@
-function SetRetFunction(){
-const countries = new Set();
-countries.add('India');
-countries.add('Nepal');
-countries.add('Sri Lanka');
-countries.add('Pakistan');
+function SetRetFunction() {
+    const countries = new Set();
+    countries.add('India').add('Nepal').add('Sri Lanka').add('Pakistan');
 
-return countries;
+    return countries;
 
 }
 
